@@ -1,33 +1,42 @@
 ul{
     margin: 0;
     padding: 0;
-
+    width: 100%;
+    height: 150px;
 }
 li{
     list-style: none;
     float: left;
 }
-table
-{
-    border-collapse:collapse;
-}
-
-table, td, th
-{
-    border:1px solid #b0b0b0;
-}
-#header_th{
+.header_h1{
     width: 100%;
     background: grey;
 }
-.backdrop{
-    padding:0 10px 0 10px;
-    background-color:#D6D6D6;
-    text-align: center;
+.header_h1 h1{
+    margin: 0;
 }
+.contentRight_h2{
+
+    font-size: 15px;
+    text-align: center;
+    width: 10%;
+    margin: 0;
+    height: 150px;
+    line-height: 100px;
+    background-color: #D6D6D6;
+    float: left;
+}
+
 .labels{
     margin-right: 10px;
 }
 .neirong{
     margin-right: 30px;
+}
+.line{
+    margin-top:0;
+    border-top: 1px solid grey;
+}
+.pone{
+    margin-bottom: 16px;
 }
