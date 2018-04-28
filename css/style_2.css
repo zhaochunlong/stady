@@ -1,0 +1,28 @@
+ul{
+    margin: 0;
+    padding: 0;
+
+}
+li{
+    list-style: none;
+    float: left;
+}
+#contentLeft{
+    width: 10%;
+    height: 940px;
+    float: left;
+    background-color:#65A4FA ;
+}
+#contentLeft h1{
+    text-align: center;
+}
+#contentRight{
+    width: 80%;
+    float: left;
+}
+.labels{
+    margin-right: 10px;
+}
+.neirong{
+    margin-right: 30px;
+}

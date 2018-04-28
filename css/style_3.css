@@ -1,0 +1,33 @@
+ul{
+    margin: 0;
+    padding: 0;
+
+}
+li{
+    list-style: none;
+    float: left;
+}
+table
+{
+    border-collapse:collapse;
+}
+
+table, td, th
+{
+    border:1px solid #b0b0b0;
+}
+#header_th{
+    width: 100%;
+    background: grey;
+}
+.backdrop{
+    padding:0 10px 0 10px;
+    background-color:#D6D6D6;
+    text-align: center;
+}
+.labels{
+    margin-right: 10px;
+}
+.neirong{
+    margin-right: 30px;
+}
