@@ -5,8 +5,7 @@
 ul li{
     list-style: none;
 }
-#header{
-    width: 100%;
+header{
     height: 70px;
     line-height: 70px;
     background-color: #333333;
@@ -113,30 +112,42 @@ ul li{
     width: 100%;
     position: relative;
 }
-.btn{
+.middle-tab{
+    height: 70px;
+    border-bottom: 1px solid #6A7967;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: flex-end;
+}
+.tab{
+    width: 960px;
+    margin: 0 auto;
+}
+.middle-tab-item{
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.middle-tab-item span{
+    display: inline-block;
+    border: 1px solid #6A7967;
+    border-bottom: none;
+    background: #EEF3ED;
     width: 100px;
-    float: left;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
     height: 40px;
     line-height: 40px;
-    margin-top:10px;
-    border:1px solid silver;
-    z-index: 100;
     text-align: center;
-    background-color: #D6D6D6;
+    border-radius: 15px 15px 0 0;
 }
-.displacement{
-    background-color: white;
-    margin-left: 25%;
-    border-bottom:none;
+.middle-tab-item span:first-child{
+    background: #fff;
+    height: 41px;
+    margin-bottom: -1px;
 }
-#line{
-    width: 100%;
-    position: absolute;
-    margin-top: -1px;
-    /*margin-bottom: 10px;*/
-}
+
+
 #nei{
     width: 960px;
     height: auto;
